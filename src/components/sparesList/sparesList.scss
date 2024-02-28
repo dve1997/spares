@@ -1,0 +1,68 @@
+.spares {
+  &__list {
+    padding: 10px;
+  }
+}
+.list {
+  &__item {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px;
+    justify-items: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  &__id {
+    grid-column: 1/4;
+    color: black;
+    text-decoration: underline;
+
+    &:hover {
+      font-weight: 900;
+    }
+  }
+
+  &__description {
+    grid-column: 4/7;
+  }
+
+  &__price {
+    grid-column: 7/9;
+  }
+
+  &__original {
+    grid-column: 9/11;
+  }
+
+  &__availability {
+    grid-column: 11/13;
+  }
+
+  &__delete {
+    position: absolute;
+    top: 3px;
+    right: 2px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      border: 2px solid black;
+    }
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

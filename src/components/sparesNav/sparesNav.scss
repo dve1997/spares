@@ -1,0 +1,47 @@
+.spares {
+  &__nav {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+}
+.nav {
+  text-align: center;
+
+  &__search {
+    margin-bottom: 10px;
+
+    & > input {
+      border: 1px solid black;
+      min-width: 250px;
+      padding: 3px;
+    }
+  }
+
+  &__original {
+    margin-bottom: 10px;
+  }
+
+  &__btn {
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    border: 1px solid black;
+    color: black;
+    padding: 3px;
+
+    &:hover {
+      font-weight: 900;
+    }
+  }
+
+  &__availability {
+    margin-bottom: 10px;
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

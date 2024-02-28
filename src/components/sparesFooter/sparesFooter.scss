@@ -1,0 +1,30 @@
+.spares {
+  &__box {
+  }
+}
+.boxfooter {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 70px;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(195, 195, 195, 1) 0%,
+    rgba(45, 140, 253, 1) 100%
+  );
+
+  &__logo {
+    grid-column: 6/8;
+    color: black;
+    font-weight: 700;
+  }
+}
+
+.anim-enter {
+  opacity: 0;
+}
+.anim-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}

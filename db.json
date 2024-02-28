@@ -1,0 +1,70 @@
+{
+  "spares": [
+    {
+      "id": "1fa154b6-57bc-4dcc-bf99-7ed275220187",
+      "brand": "mercedes",
+      "model": "s-class",
+      "generation": "140",
+      "type": "шаровая опора",
+      "description": "левая шаровая опора mercedes s-class 140",
+      "price": "7000",
+      "original": "да",
+      "availability": "нет"
+    },
+    {
+      "id": "e39a6b81-2eb5-47d0-b391-91dfaf4f38bc",
+      "brand": "mercedes",
+      "model": "s-class",
+      "generation": "220",
+      "type": "стойка стабилизатор",
+      "description": "левая стойка стабилизатор mercedes s-class 220",
+      "price": "10000",
+      "original": "нет",
+      "availability": "да"
+    },
+    {
+      "id": "301df891-98fa-4f28-8a35-ebeabbf29268",
+      "brand": "bmw",
+      "model": "seven",
+      "generation": "e38",
+      "type": "шаровая опора",
+      "description": "левая шаровая опора bmw seven e38",
+      "price": "8000",
+      "original": "да",
+      "availability": "нет"
+    },
+    {
+      "id": "7150bd7f-702b-4af5-bfea-5bafcc30a3ff",
+      "brand": "bmw",
+      "model": "seven",
+      "generation": "f02",
+      "type": "стойка стабилизатор",
+      "description": "левая стойка стабилизатор bmw seven f02",
+      "price": "12000",
+      "original": "нет",
+      "availability": "да"
+    },
+    {
+      "id": "247e1857-ef13-44fb-bdbc-de25223bd202",
+      "brand": "audi",
+      "model": "a8",
+      "generation": "80",
+      "type": "шаровая опора",
+      "description": "левая шаровая опора audi a8 80",
+      "price": "6000",
+      "original": "да",
+      "availability": "нет"
+    },
+    {
+      "id": "cff470dc-b466-4443-9d2e-0414ab47ffb3",
+      "brand": "audi",
+      "model": "a8",
+      "generation": "d4",
+      "type": "стойка стабилизатор",
+      "description": "левая стойка стабилизатор mercedes s-class d4",
+      "price": "11000",
+      "original": "нет",
+      "availability": "да"
+    }
+  ]
+}
